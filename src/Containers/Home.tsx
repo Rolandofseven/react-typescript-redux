@@ -1,14 +1,14 @@
 import * as React from 'react';
-import DataTable from '../Components/DataTable';
 import NavBar from '../Components/NavBar';
+import SimpleTabs from '../Components/SimpleTabs';
 
 class Home extends React.Component<{ textToShow: string, showIt: boolean }> {
   public render() {
 
     return (
       <div>
-          <NavBar />
-        <div><DataTable /></div>
+        <NavBar /> <br/>
+        <SimpleTabs />
       </div>
     );
   }
