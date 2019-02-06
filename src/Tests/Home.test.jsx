@@ -9,6 +9,7 @@ configure({adapter: new Adapter()});
 describe('<Home />', () => {
     it('Should contain one occurrence of <DataTable /> ', () => {
         const wrapper = shallow(<Home/>);
+        
         expect(wrapper.find(SimpleTabs)).toHaveLength(1);
     })
 })
